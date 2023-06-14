@@ -1,0 +1,508 @@
+*
+{
+  margin: 0px;
+  text-decoration: none;
+  padding: 0px;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family:"Arial Rounded MT Bold"
+
+}
+
+html
+{
+  overflow-x: hidden;
+  font-size: 62.5%;
+
+
+}
+:root
+{
+  --bg-color:#081b29;
+  --text-color:white;
+  --main-color: #390d60;
+}
+body
+{
+  background-color: var(--bg-color);
+}
+span {
+  color: deepskyblue;
+  padding-left: 2rem;
+
+}
+.header
+{
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  padding: 2rem 9%;
+  display: flex;
+  float: left;
+  background-color:transparent;
+  justify-content:space-between;
+  align-items: center;
+  z-index: 100;
+}
+.logo
+{
+  font-size:2.5rem;
+  color: var(--text-color);
+  font-weight: 600;
+}
+.navbar a
+{
+  font-size:22px;
+  margin-left: 3.5rem;
+  color:var(--text-color);
+  transition: .3s;
+
+}
+.navbar a:hover ,
+.navbar a:active
+{
+  color: var(--main-color);
+}
+#menu-icon{
+  font-size: 3.6rem;
+  color: var(--text-color);
+  cursor: pointer;
+  display: none;
+
+}
+section
+{
+  min-height: 100vh;
+  padding:10rem 9% 2rem;
+
+
+
+}
+.home
+{
+  display: flex;
+  align-items: center;
+  padding: 0 9%;
+  background: url("/img/boy.png") no-repeat;
+  background-size: 600px;
+  background-position: right;
+  animation-direction: normal;
+
+
+
+
+
+
+
+
+}
+.home-content {
+  max-width: 60rem;
+}
+.home-content h1
+{
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--text-color);
+}
+.home-content .text-annimated
+{
+  position: relative;
+  width: 32rem;
+}
+.home-content .text-annimated
+{
+  font-size: 2.1rem;
+  font-weight: 600;
+  color: transparent;
+  -webkit-text-stroke: .7px #a276ca;
+
+}
+.home-content p {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: var(--text-color);
+  margin: 2rem 0 4rem;
+}
+.btn-box
+{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 40rem;
+  height: 6rem;
+
+}
+.btn-box .btn  {
+  position: relative;
+  display: inline-flex;
+  text-align: center;
+  padding-top: 15px;
+  align-items: center;
+  width: 16rem;
+  color: white;
+  font-size: 2rem;
+  height: 100%;
+  background-color:var(--main-color);
+  border: solid .2rem var(--main-color) ;
+  border-radius: 2rem;
+
+}
+.btn-box a:hover
+{
+  background:deepskyblue;
+
+}
+.home_icons {
+  position: absolute;
+  bottom: 4rem;
+  width: 150px;
+  margin-top: 50px;
+  margin-left: 120px;
+  display: flex;
+  justify-content: space-between;
+
+
+}
+.home_icons a
+{
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: .2rem solid var(--main-color);
+  border-radius: 50%;
+  font-size: 25px;
+  color: white;
+
+
+
+}
+.home_icons a:hover {
+  background-color:deepskyblue;
+
+}
+
+
+/*
+About custom css
+ */
+.about {
+  display: flex;
+  align-items: center;
+  padding: 0 9%;
+  background: url("/img/about.png") no-repeat;
+  background-size: 600px;
+  background-position: right;
+  animation-direction: normal;
+}
+.about-content {
+  max-width: 60rem;
+}
+.about-content h1
+{
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--text-color);
+}
+.about-content .text-annimated h3
+{
+  font-size: 2.1rem;
+  font-weight: 600;
+  color: transparent;
+  -webkit-text-stroke: .7px #a276ca;
+
+
+}
+.about-content .text-annimated
+{
+  position: relative;
+  width: 32rem;
+}
+.about-content .text-annimated
+{
+  font-size: 2.1rem;
+  font-weight: 600;
+  color: transparent;
+  -webkit-text-stroke: .7px #a276ca;
+
+}
+.about-content p {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: var(--text-color);
+  margin: 2rem 0 4rem;
+}
+.btn-box .btn{
+  display: inline-block;
+  width: 15rem;
+}
+.btn-box .btn a::before {
+  background: var(--main-color);
+
+}
+/*
+education main css
+ */
+.education {
+  display: flex;
+  align-items: center;
+  padding: 0 9%;
+  background: url("/img/education.png") no-repeat;
+  background-size: 600px;
+  background-position: right;
+  animation-direction: normal;
+}
+.education-content {
+  max-width: 60rem;
+}
+.education-content h1
+{
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 10px;
+  color: var(--text-color);
+}
+.education-content .text-annimated h3
+{
+  font-size: 2.1rem;
+  font-weight: 600;
+  color: transparent;
+  -webkit-text-stroke: .7px #a276ca;
+
+
+}
+.education-content .text-annimated
+{
+  position: relative;
+  width: 32rem;
+}
+.education-content .text-annimated
+{
+  font-size: 2.1rem;
+  font-weight: 600;
+  color: transparent;
+  -webkit-text-stroke: .7px #a276ca;
+
+}
+.education-content p {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: var(--text-color);
+  margin: 2rem 0 4rem;
+}
+.btn-box .btn{
+  display: inline-block;
+  width: 15rem;
+}
+.btn-box .btn a::before {
+  background: var(--main-color);
+
+}
+.box_a {
+   width: 55rem;
+  height: 70px;
+  background:rgba(57, 121, 204, 0.81);
+  display: inline-flex;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+.box_b {
+  width: 55rem;
+  height: 70px;
+  background:slategray;
+  display: inline-flex;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+.box_a p {
+  text-align: justify-all;
+  font-weight: 300;
+  font-size: 20px;
+  color: var(--text-color);
+  padding-left: 7rem;
+}
+
+
+
+.box_b p {
+  text-align: justify-all;
+  font-weight: 300;
+  color:black;
+  font-size: 20px;
+  padding-left:7rem;
+
+
+}
+
+.education_icons a
+{
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height:40px;
+  background: transparent;
+  border: .2rem solid var(--main-color);
+  border-radius: 50%;
+  font-size: 25px;
+  color: white;
+
+
+}
+.education_icons {
+  position: absolute;
+  bottom: 4rem;
+  width: 150px;
+  margin-top: 20px;
+  margin-left: 150px;
+  display:flex;
+  justify-content: space-between;
+  column-gap: 7px;
+}
+.education_icons a:hover{
+  background: var(--main-color);
+}
+
+/*
+skills style
+ */
+.skill {
+  display: flex;
+  align-items: center;
+  padding: 0 9%;
+  background: url("/img/skill.png") no-repeat;
+  background-size: 600px;
+  background-position: right;
+  animation-direction: normal;
+}
+.skill-content {
+  max-width: 60rem;
+}
+.skill-content h1
+{
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--text-color);
+}
+.skill_col {
+  width: 55rem;
+  height: 70px;
+ margin-top: 10px;
+
+
+
+}
+.col_sub_a {
+  width:55rem;
+  height: 30px;
+  background:slategray;
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: uppercase;
+  float: right;
+  padding-left:10px;
+}
+.col_sub_b {
+  width: 55rem;
+  height: 40px;
+  background: rgba(57, 121, 204, 0.81);
+  float: left;
+  padding-left: 60px;
+
+}
+.col_bar {
+  font-size: 20px;
+  color: var(--text-color);
+  float: left;
+  padding: 15px;
+}
+/*contact style css
+ */
+
+.contact {
+  display: flex;
+  align-items: center;
+  padding: 0 9%;
+  background: url("/img/contact.png") no-repeat;
+  background-size: 600px;
+  background-position: right;
+  animation-direction: normal;
+}
+.contact-content {
+  max-width: 60rem;
+
+}
+.contact-content h1
+{
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--text-color);
+}
+.Form_container {
+  width: 70rem;
+  height: 40rem;
+  margin-top: 15px;
+  position: relative;
+
+
+  animation-direction: normal;
+
+}
+input[type=text], select, textarea {
+  width:30rem;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  margin-left: 8rem;
+  resize: vertical;
+
+}
+
+input[type=submit] {
+  background:var(--main-color);
+  color:var(--text-color);
+  font-size: 20px;
+  font-weight: 400;
+  padding: 12px 20px;
+  margin: 30px;
+  border:2px solid var(--main-color);
+  border-radius: 2rem;
+  cursor: pointer;
+
+}
+
+
+input[type=tel], select, textarea {
+  width: 30rem;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  margin-left: 8rem;
+  resize: vertical;
+}
+
+
+
+
+
+
+
+
