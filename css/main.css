@@ -176,7 +176,7 @@ About custom css
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url("/img/about.png") no-repeat;
+    background: url("img/about.png") no-repeat;
     background-size: 600px;
     background-position: right;
     animation-direction: normal;
@@ -237,7 +237,7 @@ education main css
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url("/img/education.png") no-repeat;
+    background: url("img/education.png") no-repeat;
     background-size: 600px;
     background-position: right;
     animation-direction: normal;
@@ -362,7 +362,7 @@ skills style
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url("/img/skill.png") no-repeat;
+    background: url("img/skill.png") no-repeat;
     background-size: 600px;
     background-position: right;
     animation-direction: normal;
@@ -419,7 +419,7 @@ skills style
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url("/img/contact.png") no-repeat;
+    background: url("img/contact.png") no-repeat;
     background-size: 600px;
     background-position: right;
     animation-direction: normal;
